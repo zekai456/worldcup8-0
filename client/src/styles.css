@@ -7,7 +7,7 @@
   --line: rgba(255, 255, 255, 0.1);
   --line-dark: rgba(0, 0, 0, 0.3);
   --text: #f0f4f8;
-  --ink: #ffffff;
+  --ink: #07120f;
   --muted: #a0abb6;
   --accent: #00ff7f; /* Neon green */
   --accent-2: #fada5e; /* Gold */
@@ -1303,7 +1303,9 @@ body {
   padding: 12px;
   border-left: 3px solid var(--danger);
   background: #fffaf0;
+  color: var(--ink);
   line-height: 1.6;
+  font-weight: 850;
 }
 .press-input, textarea.answer {
   width: 100%;
@@ -1313,7 +1315,10 @@ body {
   padding: 12px;
   font: inherit;
   resize: vertical;
+  background: #fffaf0;
+  color: var(--ink);
 }
+.press-input::placeholder, textarea.answer::placeholder { color: rgba(7,18,15,0.58); }
 
 .event-opts { display: grid; gap: 10px; margin-top: 14px; }
 .event-opt {
@@ -1322,6 +1327,7 @@ body {
   border-radius: 8px;
   padding: 12px;
   background: #fffaf0;
+  color: var(--ink);
   cursor: pointer;
 }
 .event-opt:hover { border-color: var(--accent-2); }
@@ -1618,6 +1624,7 @@ body {
   border: 1px solid var(--line-dark);
   border-radius: 8px;
   background: #fffaf0;
+  color: var(--ink);
 }
 .rp-pos { grid-area: pos; color: #155a33; font-weight: 950; }
 .reveal-player strong { grid-area: name; }
