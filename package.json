@@ -1,0 +1,14 @@
+{
+  "name": "worldcup8-0",
+  "version": "1.0.0",
+  "private": true,
+  "description": "世界杯 8-0：传奇之路 — 一键启动（构建前端 + 启动后端单进程）",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build",
+    "start": "node server/src/index.js",
+    "go": "npm run install:all && npm run build && npm start",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev"
+  }
+}
