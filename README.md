@@ -1,5 +1,7 @@
 # World Cup 8-0
 
+[中文说明](README.zh-CN.md)
+
 Build a historic football Dream XI, survive a 2026 World Cup route, and let an AI match director turn every round into a broadcast-style story.
 
 World Cup 8-0 is a React + Node football strategy game inspired by the "82-0" challenge format, rebuilt for 11-a-side international football. You draft players from real World Cup squads across eras, manage formation fit and bench depth, face classic national teams, watch AI-generated live commentary, answer hostile press conferences, and chase an eight-match title run.
@@ -195,4 +197,4 @@ This is a playable prototype with a full campaign loop, AI commentary, bilingual
 
 ## License
 
-Private project. Add a license before public reuse.
+MIT License. See [LICENSE](LICENSE).
